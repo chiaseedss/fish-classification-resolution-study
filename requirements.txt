@@ -1,0 +1,11 @@
+# Direct import dependencies plus Jupyter tooling. Versions are not historically locked or runtime-validated.
+tensorflow
+kagglehub
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+seaborn
+notebook
+ipykernel

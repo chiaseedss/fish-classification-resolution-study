@@ -1,0 +1,56 @@
+# Local environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+# Private configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.sqlite*
+# Datasets and input images are intentionally not distributed
+data/
+dataset/
+datasets/
+images/
+sample_images/
+fish_dataset_clean/
+# Model weights and serialized artifacts
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.npz
+*.npy
+*.pkl
+*.pickle
+# Archives, reports and unreviewed media
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.mp4
+*.mov
+# Generated results
+outputs/
+runs/
+compressed/
+temp_compressed_*
+compression_results.csv
+# Approved source notebooks, README and requirements are not excluded.
+# Embedded notebook outputs require review: ignore rules do not remove them.
